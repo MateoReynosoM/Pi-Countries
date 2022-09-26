@@ -1,0 +1,71 @@
+.container-create{ 
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: white; */
+  /* width: 400px; */
+}
+
+.titulo{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-shadow:-2px 2px 2px black;
+  margin: 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow:-2px 2px 1px black;
+}
+
+.input{
+  background-color: rgb(135, 136, 130);;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: -5px 5px 5px black;
+}
+
+.input:hover{
+  box-shadow: -5px 5px 10px white;
+}
+
+.input:focus{
+  outline: none;
+}
+
+.warning{
+  color: red;
+}
+
+.boton{
+  margin-top: 20px;
+  background-color: #0559e1;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: -5px 5px 5px black;
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+}
+
+.boton:hover{
+  background-color: white;
+  color:#0559e1;
+}
+
+.select-countries{
+  background-color: white;
+}

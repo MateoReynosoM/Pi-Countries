@@ -1,0 +1,35 @@
+.card {
+    width: 250px;
+    height: 320px;
+    transition: all .3s;
+    border-radius: 1rem ;
+    border: black;
+    background: url(https://assetstools.cosentino.com/api/v1/bynder/color/CV5/detalle/CV5-thumb.jpg?w=512&h=512&q=80,format&fit=crop&auto=compress%2Cformat);
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+    color:black;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .img-c {
+    transition: all .3s;
+    background: transparent;
+    width: 85%;
+    max-height:140px ;
+  }
+  
+  /* .img:hover {
+    transform: scale(1.1);
+  } */
+  
+  .continent{
+    padding-top: 8px;
+    bottom: 0px;
+  }
+
+  .link{
+    text-decoration: none;
+  }

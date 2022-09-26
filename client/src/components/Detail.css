@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 130px;
+    justify-items: center;  
+}
+
+
+.img{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.card-detail{
+    width: 500px;
+    height: 500px;
+    background: url(https://assetstools.cosentino.com/api/v1/bynder/color/CV5/detalle/CV5-thumb.jpg?w=512&h=512&q=80,format&fit=crop&auto=compress%2Cformat);
+    border-radius: 5%;
+    border: 2.5px solid;
+    border-color:black;
+}
+
+.container-activities-cards{
+    border-radius: 5%;
+    border: 2.5px solid;
+    border-color:black;
+    width: 300px;
+    background: url(https://assetstools.cosentino.com/api/v1/bynder/color/CV5/detalle/CV5-thumb.jpg?w=512&h=512&q=80,format&fit=crop&auto=compress%2Cformat);
+}
+.card-activities{
+    height: 100px;
+    background-color: lightgray;
+    /* border-radius: 5%; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* width: 80%; */
+    padding-left: 0px;
+    align-items: center;
+    /* border: 2.5px solid;
+    border-color:black; */
+}

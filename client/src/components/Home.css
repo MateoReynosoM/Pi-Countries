@@ -1,0 +1,23 @@
+.country-cards {    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.display-cards{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.search-input{
+  border-radius: 10px;
+  border: solid 2px;
+}
+
+.buttons-home{
+  background-color: #2e73ff;
+  color: white;
+  cursor: pointer;
+}
