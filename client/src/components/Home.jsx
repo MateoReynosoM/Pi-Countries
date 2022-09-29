@@ -11,6 +11,7 @@ import "./Home.css"
 
 export default function Home() {
   const dispatch = useDispatch(); //para despachar las actions
+ /* Getting the countries from the state. */
   const allCountries = useSelector((state) => state.countries); 
   const [currentPage, setCurrentPage] = useState(1)
   const [countriesPerPage, setCountriesPerPage] = useState(10)
@@ -49,13 +50,13 @@ export default function Home() {
   function handleSortPopulation(e) {
     e.preventDefault();
     dispatch(orderByPopulation(e.target.value));
-    setCurrentPage(1); //seteando para que arranque de la pagina uuno
+    setCurrentPage(1); 
     setOrderPopulation(`Ordenado ${e.target.value}`);
   }
   
   function handleFilterByActivities(e){
     dispatch(filterActivities(e.target.value))
-    setCurrentPage(1); //seteando para que arranque de la pagina uno
+    setCurrentPage(1); 
   }
 
   return (

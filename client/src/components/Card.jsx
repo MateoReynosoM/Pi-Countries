@@ -4,10 +4,10 @@ import "./Card.css"
 
 /* export default function Card(props){ */
     export default class Card extends React.Component {
-        constructor(props) {
+        /* constructor(props) {
             super(props);
             console.log(this.props)
-          }
+          } */
         render() {
     return(
         

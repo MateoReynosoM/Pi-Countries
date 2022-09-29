@@ -92,6 +92,7 @@ export default function CreateActivity(){
         history.push('/home')
     }
 
+   /* A hook that is called when the component is mounted. */
     useEffect(()=>{
         dispatch(getCountries())
         },[]);

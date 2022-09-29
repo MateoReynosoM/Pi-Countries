@@ -1,5 +1,4 @@
 const {Country,Activity} = require("../db");
-const axios = require("axios");
 const {Op}= require('sequelize')
 
 const postActivity=async(req,res,next)=>{
